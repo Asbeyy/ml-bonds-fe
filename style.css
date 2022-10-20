@@ -906,13 +906,18 @@ body  {
   }
 
   .bond-wrapper{
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
     text-align: justify;
-    position: absolute; 
-    left: 10%;
-    right: 10%;
-    margin: 10px;
-    top: 20%;
-    scale: 1;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+  }
+
+  .mega-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
   }
 
   .nft{
@@ -942,9 +947,9 @@ body  {
   }
   
   .section-box .box {
-    width: 900px;
-    height: 500px;
-    background-color: #222540;
+    width: 700px;
+    height: 540px;
+    background-color: #111111;
     padding: 25px 15px;
     border-radius: 5px 25px 25px 25px;
     position: relative;
@@ -1001,8 +1006,8 @@ body  {
     width: 60px;
     border-radius: 50%;
     position: absolute;
-    left: 22%;
-    top: 9.5%;
+    left: 28%;
+    top: 6.5%;
     scale: 0.9;
   }
   
@@ -1012,6 +1017,7 @@ body  {
   .section-box .box .big-title {
     color: #fff;
     font-size: 32px;
+    position: relative;
   }
   .section-box .box .text {
     color: #eee;
@@ -1061,8 +1067,20 @@ body  {
   .big-wrapper{
     align-items: center;
     position: relative;
-    top:300px;
+    top:20px;
   } 
     
-  .main-text-2{
+  .ttt{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  } 
+  .nftits{
+    scale: 0.7;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+  
   } 
