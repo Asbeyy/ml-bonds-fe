@@ -911,7 +911,7 @@ body  {
     left: 10%;
     right: 10%;
     margin: 10px;
-    top: 50%;
+    top: 20%;
     scale: 1;
   }
 
@@ -990,7 +990,7 @@ body  {
     justify-content: space-between;
   }
   .section-box .box .mini-title {
-    color: rgb(255, 255, 255);
+    color: #aaa;
     font-weight: 600;
     text-transform: uppercase;
     position: absolute;
@@ -1057,3 +1057,12 @@ body  {
       margin-top: 80px;
     }
   }
+
+  .big-wrapper{
+    align-items: center;
+    position: relative;
+    top:300px;
+  } 
+    
+  .main-text-2{
+  } 
