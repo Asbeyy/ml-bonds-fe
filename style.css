@@ -904,3 +904,156 @@ body  {
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
   }
+
+  .bond-wrapper{
+    text-align: justify;
+    position: absolute; 
+    left: 10%;
+    right: 10%;
+    margin: 10px;
+    top: 50%;
+    scale: 1;
+  }
+
+  .nft{
+    position: absolute; 
+    left: 10%;
+    right: 10%;
+    margin: 10px;
+    top: 43%;
+    scale: 1;
+  }
+
+  .section-box .list-box {
+    display: flex;
+  }
+  
+  .section-box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-box .box,
+  .section-box .box::before,
+  .section-box .box::after {
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.7);
+  }
+  
+  .section-box .box {
+    width: 900px;
+    height: 500px;
+    background-color: #222540;
+    padding: 25px 15px;
+    border-radius: 5px 25px 25px 25px;
+    position: relative;
+  
+    margin: 0 15px;
+  }
+  .section-box .box::before,
+  .section-box .box::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    border-radius: 25px;
+    transition: transform 0.2s linear;
+  }
+  .section-box .box:hover::before,
+  .section-box .box:hover::after {
+    transform: skewY(0);
+  }
+  .section-box .box::before {
+    transform: skewY(10deg);
+    background-color: #70acff48;
+    bottom: -20px;
+    z-index: -1;
+  }
+  .section-box .box::after {
+    transform: skewY(15deg);
+    background-color: #ffffff;
+    bottom: -35px;
+    z-index: -2;
+  }
+  
+  .section-box .box.one {
+    border-top: 10px solid #686e78;
+  }
+  .section-box .box.two {
+    border-top: 3px solid #ff8c6c;
+  }
+  
+  .section-box .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-box .box .mini-title {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    font-size: 12px;
+  }
+  .section-box .box .logo {
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 9.5%;
+    scale: 0.9;
+  }
+  
+  .section-box .box .content {
+    margin-top: 30px;
+  }
+  .section-box .box .big-title {
+    color: #fff;
+    font-size: 32px;
+  }
+  .section-box .box .text {
+    color: #eee;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .section-box .box .details {
+    list-style: none;
+    margin-top: 25px;
+  }
+  .section-box .box .details .detail {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .section-box .box .details .detail-icon {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background-color: #2a1035;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+  }
+  .section-box .box .details .detail-name {
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #eee;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .section-box {
+      height: auto;
+      padding: 50px 0;
+    }
+    .section-box .list-box {
+      flex-direction: column;
+    }
+    .section-box .list-box .box:not(:first-child) {
+      margin-top: 80px;
+    }
+  }
