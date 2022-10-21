@@ -606,7 +606,7 @@ header{
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 3%;
+  top: 42px;
   left: 60%;
   font-size: 25px;
   font-weight: 16px;
@@ -1231,4 +1231,60 @@ body  {
     position: absolute;
     top:3020px;
     left:0px
+  }
+
+
+
+
+
+  .outer{
+    width: 1250px;
+  }
+
+  .outer h1{
+    font-size: 160px;
+    position: relative;
+    color: #444;
+    white-space: nowrap;
+    padding-right: 5px;
+    text-transform: uppercase;
+  }
+  .outer h1:before{
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+    content: attr(data-attr);
+    position: absolute;
+    white-space: nowrap;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+    animation: anim 2s linear, blink 0.5s 2s linear infinite;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.4))
+      drop-shadow(0 0 20px rgba(255,255,255,0.2));
+      border-right: 2px solid #FFF;
+  }
+  
+  @keyframes anim{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  @keyframes blink{
+    0%,33%,100%{
+      border-color: rgb(255, 255, 255);
+    }
+    66%{
+      border-color: transparent;
+    }
+  }
+
+  .blinker-wrapper{
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:105px;
+    scale: 0.7;
   }
