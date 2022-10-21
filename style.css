@@ -907,6 +907,7 @@ body  {
 
   .bond-wrapper{
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     width: 700px;
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
@@ -934,7 +935,6 @@ body  {
   }
   
   .section-box {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -947,8 +947,8 @@ body  {
   }
   
   .section-box .box {
-    width: 700px;
-    height: 540px;
+    width: 730px;
+    height: 500px;
     background-color: #111111;
     padding: 25px 15px;
     border-radius: 5px 25px 25px 25px;
@@ -1006,7 +1006,7 @@ body  {
     width: 60px;
     border-radius: 50%;
     position: absolute;
-    left: 28%;
+    left: -3%;
     top: 6.5%;
     scale: 0.9;
   }
@@ -1017,7 +1017,10 @@ body  {
   .section-box .box .big-title {
     color: #fff;
     font-size: 32px;
-    position: relative;
+    position: absolute;
+    left: 10%;
+    top:9px;
+
   }
   .section-box .box .text {
     color: #eee;
@@ -1028,6 +1031,10 @@ body  {
   .section-box .box .details {
     list-style: none;
     margin-top: 25px;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    scale: 1.2;
   }
   .section-box .box .details .detail {
     margin-top: 10px;
@@ -1035,17 +1042,17 @@ body  {
     align-items: center;
   }
   .section-box .box .details .detail-icon {
-    height: 30px;
-    width: 30px;
+    height: 5px;
+    width: 5px;
     color: #fff;
-    background-color: #2a1035;
+    background-color: #ffffff;
     border-radius: 50%;
     text-align: center;
     line-height: 30px;
     font-size: 10px;
   }
   .section-box .box .details .detail-name {
-    margin-left: 15px;
+    margin-left: 7px;
     font-size: 12px;
     font-weight: 600;
     color: #eee;
@@ -1067,7 +1074,7 @@ body  {
   .big-wrapper{
     align-items: center;
     position: relative;
-    top:20px;
+    top:820px;
   } 
     
   .ttt{
@@ -1078,9 +1085,36 @@ body  {
     font-family: 'Poppins', sans-serif;
   } 
   .nftits{
-    scale: 0.7;
+    scale: 0.78;
     position: absolute;
-    top: 0%;
+    top: -11.2%;
     left: 25%;
   
   } 
+  .company-id{
+  scale: 0.8;
+  position: absolute;
+  width: 100%;
+  left: -9%;
+  top: 70px;
+  } 
+
+  .bond-wrapper-2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:200px;
+  }
+
+  .bond-wrapper-3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:400px;
+  }
