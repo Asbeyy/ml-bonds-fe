@@ -906,13 +906,6 @@ body  {
     font-family: 'Poppins', sans-serif;
   }
 
-  .bond-wrapper{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    width: 700px;
-    text-align: justify;
-    outline: rgba(0, 0, 0, 0) solid 2px;
-  }
 
   .mega-wrapper{
     display: flex;
@@ -1076,14 +1069,14 @@ body  {
   .big-wrapper{
     align-items: center;
     position: relative;
-    top:880px;
+    top:1340px;
     margin-bottom: 20px;
   } 
 
   .big-wrapper-2{
     align-items: center;
     position: relative;
-    top:1000px;
+    top:1500px;
     margin-bottom: 20px;
   } 
     
@@ -1118,6 +1111,17 @@ body  {
   top: 45px;
   } 
 
+  .bond-wrapper{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:440px;
+  }
+
+
   .bond-wrapper-2{
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -1125,7 +1129,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:200px;
+    top:625px;
   }
 
   .bond-wrapper-3{
@@ -1135,7 +1139,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:470px;
+    top:880px;
   }
 
   .bond-wrapper-4{
@@ -1145,7 +1149,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:2050px;
+    top:2450px;
     padding: 50px 10px;
   }
 
@@ -1156,7 +1160,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:725px;
+    top:1065px;
     padding: 50px 10px;
     scale: 1.4;
   }
@@ -1168,10 +1172,20 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:2400px;
+    top:2800px;
     padding: 5px 10px;
     scale: 0.86;
   }
 
 
-  
+  .banner{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:-50px;
+    left:0px;
+  }
