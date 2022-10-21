@@ -1069,14 +1069,14 @@ body  {
   .big-wrapper{
     align-items: center;
     position: relative;
-    top:1340px;
+    top:1360px;
     margin-bottom: 20px;
   } 
 
   .big-wrapper-2{
     align-items: center;
     position: relative;
-    top:1500px;
+    top:1520px;
     margin-bottom: 20px;
   } 
     
@@ -1129,7 +1129,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:625px;
+    top:675px;
   }
 
   .bond-wrapper-3{
@@ -1139,7 +1139,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:880px;
+    top:890px;
   }
 
   .bond-wrapper-4{
@@ -1160,11 +1160,28 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:1065px;
+    top:1085px;
     padding: 50px 10px;
     scale: 1.4;
   }
 
+  .bond-wrapper-6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:2550px;
+    padding: 50px 10px;
+  }
+
+  .bond-wrapper-7{
+    width: 700px;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:2765px;
+  }
   .footie{
     font-family: 'Poppins', sans-serif;
     font-weight: 50;
@@ -1172,7 +1189,7 @@ body  {
     text-align: justify;
     outline: rgba(0, 0, 0, 0) solid 2px;
     position: absolute;
-    top:2800px;
+    top:3200px;
     padding: 5px 10px;
     scale: 0.86;
   }
@@ -1188,4 +1205,18 @@ body  {
     position: absolute;
     top:-50px;
     left:0px;
+  }
+
+  .banner-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    color: #ffffff;
+    width: 700px;
+    text-align: justify;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    position: absolute;
+    top:125px;
+    padding: 50px 10px;
+    scale: 3;
   }
